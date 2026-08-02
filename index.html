@@ -52,12 +52,18 @@
   a:hover {
     border-bottom-color: var(--fg);
   }
+  a.nevoya {
+    color: #21504e;
+  }
+  @media (prefers-color-scheme: dark) {
+    a.nevoya { color: #4a9c98; }
+  }
 </style>
 </head>
 <body>
   <div>
     <h1>milad davaloo</h1>
-    <p>head of data science at <a href="https://nevoya.com">nevoya</a></p>
+    <p>head of data science at <a class="nevoya" href="https://nevoya.com">nevoya</a></p>
     <a href="https://github.com/dmilad">github.com/dmilad</a>
   </div>
 </body>
